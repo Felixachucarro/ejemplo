@@ -1,0 +1,68 @@
+*textarea{
+    font-family: 'Roboto', bold;
+}
+
+#video-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    
+  }
+  
+  #video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -6;
+  }
+
+  .container h1{
+  font-family: 'Roboto', bold;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 100px;
+  z-index: 3;
+  color: white;
+  }
+
+  #ache h3{
+    font-family: 'Roboto', medium;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 3
+    0px;
+    z-index: 3;
+  color: white;
+  }
+
+  .transparencia{
+    
+    background-color: rgba(0, 0, 0, 0.248);
+  }
+  
+.barra{
+    height: 60px!important;
+    background-color: rgba(0, 0, 0, 0.357)!important;
+    
+  }
+.navbar{
+  border-bottom: 2px black solid;
+  
+}
+
+.navbar a{
+  color: white!important;
+  font-weight: 100;
+}
+
+.navbar a:active, a:hover{
+  border-bottom: 2px rgb(255, 255, 255) solid;
+}
+
+.borde{
+  border-radius: 20px;
+}
